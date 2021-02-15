@@ -13,6 +13,11 @@
 		94F4AFA625DA1702002C35B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F4AFA425DA1702002C35B1 /* Main.storyboard */; };
 		94F4AFA825DA1703002C35B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F4AFA725DA1703002C35B1 /* Assets.xcassets */; };
 		94F4AFAB25DA1703002C35B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F4AFA925DA1703002C35B1 /* LaunchScreen.storyboard */; };
+		94F4AFB425DA470F002C35B1 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F4AFB325DA470F002C35B1 /* TitleViewController.swift */; };
+		94F4AFB725DA4715002C35B1 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F4AFB625DA4715002C35B1 /* resultViewController.swift */; };
+		94F4AFBA25DA48FD002C35B1 /* batu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94F4AFB925DA48FD002C35B1 /* batu.mp3 */; };
+		94F4AFBD25DA4900002C35B1 /* maru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94F4AFBC25DA4900002C35B1 /* maru.mp3 */; };
+		94F4AFC025DA4D9C002C35B1 /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94F4AFBF25DA4D9C002C35B1 /* BGM.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		94F4AFA725DA1703002C35B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94F4AFAA25DA1703002C35B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94F4AFAC25DA1703002C35B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F4AFB325DA470F002C35B1 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		94F4AFB625DA4715002C35B1 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
+		94F4AFB925DA48FD002C35B1 /* batu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = batu.mp3; sourceTree = "<group>"; };
+		94F4AFBC25DA4900002C35B1 /* maru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maru.mp3; sourceTree = "<group>"; };
+		94F4AFBF25DA4D9C002C35B1 /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				94F4AF9E25DA1702002C35B1 /* AppDelegate.swift */,
 				94F4AFA025DA1702002C35B1 /* SceneDelegate.swift */,
 				94F4AFA225DA1702002C35B1 /* ViewController.swift */,
+				94F4AFB325DA470F002C35B1 /* TitleViewController.swift */,
+				94F4AFB625DA4715002C35B1 /* resultViewController.swift */,
+				94F4AFB925DA48FD002C35B1 /* batu.mp3 */,
+				94F4AFBC25DA4900002C35B1 /* maru.mp3 */,
+				94F4AFBF25DA4D9C002C35B1 /* BGM.mp3 */,
 				94F4AFA425DA1702002C35B1 /* Main.storyboard */,
 				94F4AFA725DA1703002C35B1 /* Assets.xcassets */,
 				94F4AFA925DA1703002C35B1 /* LaunchScreen.storyboard */,
@@ -125,7 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F4AFAB25DA1703002C35B1 /* LaunchScreen.storyboard in Resources */,
+				94F4AFBD25DA4900002C35B1 /* maru.mp3 in Resources */,
+				94F4AFC025DA4D9C002C35B1 /* BGM.mp3 in Resources */,
 				94F4AFA825DA1703002C35B1 /* Assets.xcassets in Resources */,
+				94F4AFBA25DA48FD002C35B1 /* batu.mp3 in Resources */,
 				94F4AFA625DA1702002C35B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F4AFB725DA4715002C35B1 /* resultViewController.swift in Sources */,
 				94F4AFA325DA1702002C35B1 /* ViewController.swift in Sources */,
+				94F4AFB425DA470F002C35B1 /* TitleViewController.swift in Sources */,
 				94F4AF9F25DA1702002C35B1 /* AppDelegate.swift in Sources */,
 				94F4AFA125DA1702002C35B1 /* SceneDelegate.swift in Sources */,
 			);
@@ -296,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Iseryuiseki.MathDifficlutAPP2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +335,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Iseryuiseki.MathDifficlutAPP2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
